@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:0;
+}
+.authform{
+    border: 1px solid #0f0f0f;
+    border-radius: 5px;
+    height: 10px;
+    margin-top: 5px;
+}
+.navbar-default{
+    height: 50px;
+}
+.container{
+    width:95%;
+}
+.row{
+    margin-bottom: 0px;
+}
+.frst_page{
+    border-left: 1px solid gainsboro;
+}
+.login_top{
+    margin-top: 40px;
+}
+.login_page{
+    border-left: 1px solid gainsboro;
+}
+.login-area{
+    margin-top: 10px;
+}
+.form-btn {
+    background: #5584ff none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 100px;
+    color: #ffffff;
+    font-weight: 400;
+    max-width: 250px;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px #d2d2d2;
+    -moz-box-shadow: 0 2px 8px #d2d2d2;
+    -webkit-box-shadow: 0 2px 8px #d2d2d2;
+}

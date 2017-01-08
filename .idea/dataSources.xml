@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3493520625">
+    <data-source source="LOCAL" name="Oracle - @localhost" uuid="2c704555-f07c-45a6-809a-c90452c4e4b2">
+      <driver-ref>oracle</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@localhost:1521:ANNA</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Oracle -" uuid="fa712ee2-bff4-42b3-8d40-cacb03f024f7">
+      <driver-ref>oracle</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@ANNA</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="D:/app/v/product/11.2.0/dbhome_1/NETWORK/ADMIN" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - fmc@localhost" uuid="d758e87d-cc5d-4101-99d3-e1ee7e59edfa">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/fmc</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
